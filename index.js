@@ -23,5 +23,5 @@ function deepestChild() {
     actual = actual.firstChild
   }
   console.log(actual)
-  return actual.innerHTML
+  return console.log(actual)//actual.innerHTML
 }
