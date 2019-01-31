@@ -1,4 +1,4 @@
 
 function getFirstSelector(selector) {
-  return document.selector()
+  return document.querySelector(selector)
 }
