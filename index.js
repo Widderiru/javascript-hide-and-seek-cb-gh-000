@@ -20,7 +20,7 @@ function deepestChild() {
   const lis = document.getElementById('grand-node').querySelectorAll('div')
   var actual = lis[0]
   while(actual.childNodes.length >0) {
-    actual = actual.childNodes[0]
+    actual = actual.firstChild
   }
   return actual.innerHTML
 }
