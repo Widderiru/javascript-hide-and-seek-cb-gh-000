@@ -59,4 +59,3 @@ function deepestChild() {
   // if we haven't
   return null
 }
-}
