@@ -18,6 +18,6 @@ function increaseRankBy(n) {
 
 function deepestChild() {
   const lis = document.getElementById('grand-node').querySelector('div')
-  lis[]
+
   return lis.innerHTML
 }
