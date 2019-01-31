@@ -22,6 +22,5 @@ function deepestChild() {
   while(actual.childNodes.length >0) {
     actual = actual.firstChild
   }
-  console.log(actual)
-  return console.log(actual)//actual.innerHTML
+  return actual//actual.innerHTML
 }
